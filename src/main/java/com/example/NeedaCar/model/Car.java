@@ -4,12 +4,15 @@ import com.example.NeedaCar.enums.CarBrand;
 import com.example.NeedaCar.enums.GearBox;
 
 public class Car {
-	
+
 	private String licencePlate;
 	private CarBrand carBrand;
 	private GearBox gearBoxType;
 	private int passangerPlacesNumber;
-	
+	private boolean hasGps;
+	private boolean hasChildSeat;
+	private double pricePerDay;
+
 
 	public String getLicencePlate() {
 		return licencePlate;

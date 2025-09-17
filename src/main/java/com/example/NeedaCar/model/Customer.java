@@ -2,11 +2,16 @@ package com.example.NeedaCar.model;
 
 public class Customer {
 
+    //idDocument
+    //email
+    //age
+    //countryLiving
     private String firstName;
     private String lastName;
     private String address;
     private String contactNumber;
     private float drivingPracticeYear;
+
 
     public String getFirstName(){
         return firstName;
