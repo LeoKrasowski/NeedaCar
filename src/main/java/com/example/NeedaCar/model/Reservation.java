@@ -9,6 +9,8 @@ public class Reservation {
     private String pickupLocation;
     private String dropOffLocation;
     private LocalDateTime rentalDuration;
+    private Customer customer;
+    private Car car;
 
     public LocalDateTime getPickupDateTime() {
         return pickupDateTime;
@@ -39,5 +41,17 @@ public class Reservation {
     }
     public void setRentalDuration(LocalDateTime rentalDuration) {
         this.rentalDuration = rentalDuration;
+    }
+    public Customer getCustomer() {
+        return customer;
+    }
+    public void setCustomer(Customer customer) {
+        this.customer = customer;
+    }
+    public Car getCar() {
+        return car;
+    }
+    public void setCar(Car car) {
+        this.car = car;
     }
 }
