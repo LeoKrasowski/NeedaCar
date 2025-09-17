@@ -9,4 +9,35 @@ public class Reservation {
     private String pickupLocation;
     private String dropOffLocation;
     private LocalDateTime rentalDuration;
+
+    public LocalDateTime getPickupDateTime() {
+        return pickupDateTime;
+    }
+    public void setPickupDateTime(LocalDateTime pickupDateTime) {
+        this.pickupDateTime = pickupDateTime;
+    }
+    public LocalDateTime getDropOffDateTime() {
+        return dropOffDateTime;
+    }
+    public void setDropOffDateTime(LocalDateTime dropOffDateTime) {
+        this.dropOffDateTime = dropOffDateTime;
+    }
+    public String getPickupLocation() {
+        return pickupLocation;
+    }
+    public void setPickupLocation(String pickupLocation) {
+        this.pickupLocation = pickupLocation;
+    }
+    public String getDropOffLocation() {
+        return dropOffLocation;
+    }
+    public void setDropOffLocation(String dropOffLocation) {
+        this.dropOffLocation = dropOffLocation;
+    }
+    public LocalDateTime getRentalDuration() {
+        return rentalDuration;
+    }
+    public void setRentalDuration(LocalDateTime rentalDuration) {
+        this.rentalDuration = rentalDuration;
+    }
 }
