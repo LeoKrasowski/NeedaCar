@@ -36,5 +36,5 @@ public class RentalService {
 
     public void removeCar(Car car) {
         availableCars.remove(car);
-    }       
+    }
 }
