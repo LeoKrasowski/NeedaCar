@@ -17,7 +17,6 @@ public class Car {
 	public String getLicencePlate() {
 		return licencePlate;
 	}
-
 	public void setLicencePlate(String licencePlate) {
 		this.licencePlate = licencePlate;
 	}
@@ -25,7 +24,6 @@ public class Car {
 	public CarBrand getCarBrand() {
 		return carBrand;
 	}
-
 	public void setCarBrand(CarBrand carBrand) {
 		this.carBrand = carBrand;
 	}
@@ -33,7 +31,6 @@ public class Car {
 	public int getPassangerPlacesNumber() {
 		return passangerPlacesNumber;
 	}
-
 	public void setPassangerPlacesNumber(int passangerPlacesNumber) {
 		this.passangerPlacesNumber = passangerPlacesNumber;
 	}
@@ -41,9 +38,30 @@ public class Car {
 	public GearBox getGearBoxType() {
 		return gearBoxType;
 	}
-
 	public void setGearBoxType(GearBox gearBoxType) {
 		this.gearBoxType = gearBoxType;
 	}
 	
+	public boolean isHasGps() {
+		return hasGps;
+	}
+	public void setHasGps(boolean hasGps) {
+		this.hasGps = hasGps;
+	}
+
+	public boolean isHasChildSeat() {
+		return hasChildSeat;
+	}
+	public void setHasChildSeat(boolean hasChildSeat) {
+		this.hasChildSeat = hasChildSeat;
+	}
+
+	public double getPricePerDay() {
+		return pricePerDay;
+	}
+	public void setPricePerDay(double pricePerDay) {
+		this.pricePerDay = pricePerDay;
+	}
+
+
 }
