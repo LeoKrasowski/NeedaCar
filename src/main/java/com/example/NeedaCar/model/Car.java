@@ -12,6 +12,8 @@ public class Car {
 	private boolean hasGps;
 	private boolean hasChildSeat;
 	private double pricePerDay;
+	private boolean isAvailable;
+	
 
 
 	public String getLicencePlate() {
@@ -62,6 +64,11 @@ public class Car {
 	public void setPricePerDay(double pricePerDay) {
 		this.pricePerDay = pricePerDay;
 	}
-
+	public boolean isAvailable() {
+		return isAvailable;
+	}
+	public void setAvailable(boolean isAvailable) {
+		this.isAvailable = isAvailable;
+	}
 
 }
