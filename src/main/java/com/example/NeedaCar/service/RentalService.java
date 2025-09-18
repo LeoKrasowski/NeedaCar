@@ -8,4 +8,5 @@ public class RentalService {
     -Methods for creating bookings: When the client books the car, this class creates booking and updates the status of a car.
     -The history of the reservations: stores a list of all completed bookings.
     */
+    
 }
