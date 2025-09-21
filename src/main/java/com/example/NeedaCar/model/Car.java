@@ -1,7 +1,10 @@
 package com.example.NeedaCar.model;
 
+import com.example.NeedaCar.enums.CarBodyType;
 import com.example.NeedaCar.enums.CarBrand;
+import com.example.NeedaCar.enums.FuelType;
 import com.example.NeedaCar.enums.GearBox;
+import com.example.NeedaCar.enums.PassengerCapacity;
 
 public class Car {
 
@@ -13,7 +16,9 @@ public class Car {
 	private boolean hasChildSeat;
 	private double pricePerDay;
 	private boolean isAvailable;
-	
+	private FuelType fuelType;
+	private CarBodyType carBodyType;
+	private PassengerCapacity passengerCapacity;
 
 
 	public String getLicencePlate() {
@@ -70,5 +75,22 @@ public class Car {
 	public void setAvailable(boolean isAvailable) {
 		this.isAvailable = isAvailable;
 	}
-
+	public FuelType getFuelType(){
+		return fuelType;
+	}
+	public void setFuelType(FuelType fuelType){
+		this.fuelType = fuelType;
+	}
+	public CarBodyType getCarBodyType(){
+		return carBodyType;
+	}
+	public void setCarBodyType(CarBodyType carBodyType){
+		this.carBodyType = carBodyType;
+	}
+	public PassengerCapacity getPassengerCapacity(){
+		return passengerCapacity;
+	}
+	public void setPassangerCapacity(PassengerCapacity passengerCapacity){
+		this.passengerCapacity = passengerCapacity;
+	}
 }
